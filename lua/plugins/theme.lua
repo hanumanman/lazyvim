@@ -33,7 +33,7 @@ return {
     "LazyVim/LazyVim",
     opts = {
       -- colorscheme = "rose-pine",
-      colorscheme = "kanagawa",
+      colorscheme = "rose-pine",
     },
   },
 }
