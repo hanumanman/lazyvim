@@ -6,7 +6,9 @@ return {
         event = "notify",
         find = "No information available",
       },
-      opts = { skip = true },
+      opts = { skip = true, presets = {
+        lsp_doc_border = true,
+      } },
     })
   end,
 }

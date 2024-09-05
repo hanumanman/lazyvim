@@ -1,6 +1,8 @@
 return {
   "neovim/nvim-lspconfig",
   opts = function(_, opts)
+    -- Disable inlay hints
+    opts.inlay_hints = { enabled = false }
     -- Disable diagnostics for .env files
     local on_publish_diagnostics = vim.lsp.diagnostic.on_publish_diagnostics
     opts.servers.bashls = vim.tbl_deep_extend("force", opts.servers.bashls or {}, {
