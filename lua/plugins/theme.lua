@@ -27,7 +27,7 @@ return {
       end,
     },
   },
-
+  { "ellisonleao/gruvbox.nvim" },
   {
     "catppuccin/nvim",
     name = "catppuccin",
@@ -58,8 +58,9 @@ return {
     opts = {
       -- colorscheme = "rose-pine",
       -- colorscheme = "tokyonight",
-      colorscheme = "catppuccin-mocha",
-      -- colorscheme = "kanagawa",
+      -- colorscheme = "catppuccin-mocha",
+      colorscheme = "kanagawa",
+      -- colorscheme = "gruvbox",
     },
   },
 }
